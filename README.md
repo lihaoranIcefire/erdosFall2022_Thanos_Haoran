@@ -32,13 +32,16 @@ The data set can be found [here](https://drive.google.com/drive/u/1/folders/1Kl9
 ## Result
 
 - Top 10 products
+
 ![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/barchart.png)
 
 - Department distribution
+
 ![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/pichart.png)
 
 - K-means clustering on the data set described through PCA
-![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/clustering.png = 100 x 100).
+
+![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/clustering.png).
 
 The accuracies and F1 scores of the the non clustered and clustered models are
 
@@ -65,7 +68,7 @@ The accuracies and F1 scores of the the non clustered and clustered models are
   - Free & Clear Unscented Baby Wipes,
   - ...
 
-and a few that we have missed
+- and a few that we have missed
 
   - Organic Lemon,
   - Organic Red Onion,
