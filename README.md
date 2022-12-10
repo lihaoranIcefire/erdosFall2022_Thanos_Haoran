@@ -4,13 +4,13 @@
 
 Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our unique food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you. We need to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order.
 
-The data set can be found [here](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data)
+The data set can be found [here](https://drive.google.com/drive/u/1/folders/1Kl9Pe_4269liBggPHZ4XzocJkMGM5QiN) or [https://www.kaggle.com/competitions/instacart-market-basket-analysis/data](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data).
 
 ## Methodology
 
-- 
-- Principal component analysis (PCA) + K-means
-- Extreme gradient boosting (XGBoost) + GridSearchCV
+- Exploratory analysis via seaborn.
+- Principal component analysis (PCA) + K-means.
+- Extreme gradient boosting (XGBoost) + GridSearchCV.
 
 ## Process
 
@@ -20,19 +20,25 @@ The data set can be found [here](https://www.kaggle.com/competitions/instacart-m
 
 ## Highlights
 
-- The product people by the most is banana
-- Products no one ever bought: `Protein Granola Apple Crisp`, `Unpeeled Apricot Halves in Heavy Syrup`, `Single Barrel Kentucky Straight Bourbon Whiskey` 
+- The product people by the most is banana.
+- Products no one ever bought: `Protein Granola Apple Crisp`, `Unpeeled Apricot Halves in Heavy Syrup`, `Single Barrel Kentucky Straight Bourbon Whiskey`.
 - Bananas were the most popular purchase.
-- Produce sales are the highest. 
-- Monday, Tuesday, and 10 a.m. to 4 p.m. are the most lucrative profits. 
-- 59% of the products have been reordered
-- Clustered models generally behave better then the non clustered model 
+- Produce sales are the highest.
+- Monday, Tuesday, and 10 a.m. to 4 p.m. are the most lucrative profits.
+- 59% of the products have been reordered.
+- Clustered models generally behave better then the non clustered model.
 
 
 ## Result
 
+- Top 10 products
+![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/barchart.png)
+
+- Department distribution
+![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/pichart.png)
+
 - K-means clustering on the data set described through PCA
-![Clustering of the customer data set](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/clustering.png)
+![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/clustering.png = 100 x 100).
 
 The accuracies and F1 scores of the the non clustered and clustered models are
 
@@ -42,7 +48,7 @@ The accuracies and F1 scores of the the non clustered and clustered models are
 | Accuracy | 86.30% | 79.46 | 90.33% | 87.89% |
 | F1 score | 0.3712 | 0.2816 | 0.2892 | 0.3566 |
 
-The accuracies of the non clustered and clustered models on the clustered data are
+- The accuracies of the non clustered and clustered models on the clustered data are
 
 | Accuracy  | Non clustered model | Clustered 0 model | Clustered 1 model | Clustered 2 model |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -50,10 +56,18 @@ The accuracies of the non clustered and clustered models on the clustered data a
 | Clustered 1 data | 94.01% | | 94.05% | |
 | Clustered 2 data | 90.44% | | | 92.51% |
 
-We also list some items that we predicted correctly
+- Some items that we predicted correctly
 
-and some that we have missed
+  - Organic Grade A Free Range Large Brown Eggs,
+  - Organic Yellow Onion,
+  - Organic Cucumber,
+  - Organic Tomato Cluster,
+  - Free & Clear Unscented Baby Wipes,
+  - ...
 
-<picture>
-  <img src="https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/xgboost_illustration.png">
-</picture>
+and a few that we have missed
+
+  - Organic Lemon,
+  - Organic Red Onion,
+  - Organic Sunday Bacon,
+  - ...
