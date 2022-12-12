@@ -43,7 +43,7 @@ The data set can be found [here](https://drive.google.com/drive/u/1/folders/1Kl9
 
 ![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/clustering.png).
 
-The accuracies and F1 scores of the the non clustered and clustered models are
+- The accuracies and F1 scores of the the non clustered and clustered models are
 
 | | Non clustered model | Clustered 0 model | Clustered 1 model | Clustered 2 model |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
