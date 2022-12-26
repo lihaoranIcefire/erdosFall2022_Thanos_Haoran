@@ -74,3 +74,5 @@ The data set can be found [here](https://drive.google.com/drive/u/1/folders/1Kl9
   - Organic Red Onion,
   - Organic Sunday Bacon,
   - ...
+
+ Here are the [slides](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Final%20presentation.pdf) for final presentation.
