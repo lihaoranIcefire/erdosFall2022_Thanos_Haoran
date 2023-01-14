@@ -48,7 +48,7 @@ The data set can be found [here](https://drive.google.com/drive/u/1/folders/1Kl9
 | | Non clustered model | Clustered 0 model | Clustered 1 model | Clustered 2 model |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Number of predictions | 6785793 | 580703 | 15809 | 42369 |
-| Accuracy | 86.30% | 79.46 | 90.33% | 87.89% |
+| Accuracy | 86.30% | 79.46% | 90.33% | 87.89% |
 | F1 score | 0.3712 | 0.2816 | 0.2892 | 0.3566 |
 
 - The accuracies of the non clustered and clustered models on the clustered data are
