@@ -1,10 +1,11 @@
-# Instacart basket analysis
+# Instacart Basket Analysis
 
 ## Problem description
 
 Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our unique food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you. We need to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order.
 
 The data set can be found [here](https://drive.google.com/drive/u/1/folders/1Kl9Pe_4269liBggPHZ4XzocJkMGM5QiN) or [https://www.kaggle.com/competitions/instacart-market-basket-analysis/data](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data).
+This project can be found at [https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran)
 
 ## Methodology
 
