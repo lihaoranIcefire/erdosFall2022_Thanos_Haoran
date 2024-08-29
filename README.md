@@ -39,7 +39,7 @@ This project can be found at [https://github.com/lihaoranIcefire/erdosFall2022_T
 
 - Department distribution
 
-![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/pichart.png)
+![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/piechart.png)
 
 - K-means clustering on the data set described through PCA
 
