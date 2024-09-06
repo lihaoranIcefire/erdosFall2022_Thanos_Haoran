@@ -4,7 +4,7 @@
 
 Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our unique food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you. We need to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order.
 
-The data set can be found [here](https://drive.google.com/drive/u/1/folders/1Kl9Pe_4269liBggPHZ4XzocJkMGM5QiN) or [https://www.kaggle.com/competitions/instacart-market-basket-analysis/data](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data).
+The data set can be found [https://www.kaggle.com/competitions/instacart-market-basket-analysis/data](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data).
 
 This project can be found at [https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran)
 
@@ -34,47 +34,40 @@ This project can be found at [https://github.com/lihaoranIcefire/erdosFall2022_T
 ## Result
 
 - Top 10 products
-
-![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/barchart.png)
+  ![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/barchart.png)
 
 - Department distribution
-
-![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/piechart.png)
+  ![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/piechart.png)
 
 - K-means clustering on the data set described through PCA
-
-![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/clustering.png).
+  ![](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Pictures%20and%20graphs/clustering.png).
 
 - The accuracies and F1 scores of the the non clustered and clustered models are
-
-| | Non clustered model | Clustered 0 model | Clustered 1 model | Clustered 2 model |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Number of predictions | 6785793 | 580703 | 15809 | 42369 |
-| Accuracy | 86.30% | 79.46% | 90.33% | 87.89% |
-| F1 score | 0.3712 | 0.2816 | 0.2892 | 0.3566 |
+  | | Non clustered model | Clustered 0 model | Clustered 1 model | Clustered 2 model |
+  | ------------- | ------------- | ------------- | ------------- | ------------- |
+  | Number of predictions | 6785793 | 580703 | 15809 | 42369 |
+  | Accuracy | 86.30% | 79.46% | 90.33% | 87.89% |
+  | F1 score | 0.3712 | 0.2816 | 0.2892 | 0.3566 |
 
 - The accuracies of the non clustered and clustered models on the clustered data are
-
-| Accuracy  | Non clustered model | Clustered 0 model | Clustered 1 model | Clustered 2 model |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Clustered 0 data | 91.23% | 91.32% | | |
-| Clustered 1 data | 94.01% | | 94.05% | |
-| Clustered 2 data | 90.44% | | | 92.51% |
+  | Accuracy  | Non clustered model | Clustered 0 model | Clustered 1 model | Clustered 2 model |
+  | ------------- | ------------- | ------------- | ------------- | ------------- |
+  | Clustered 0 data | 91.23% | 91.32% | | |
+  | Clustered 1 data | 94.01% | | 94.05% | |
+  | Clustered 2 data | 90.44% | | | 92.51% |
 
 - Some items that we predicted correctly
-
-  - Organic Grade A Free Range Large Brown Eggs,
-  - Organic Yellow Onion,
-  - Organic Cucumber,
-  - Organic Tomato Cluster,
-  - Free & Clear Unscented Baby Wipes,
-  - ...
+  * Organic Grade A Free Range Large Brown Eggs,
+  * Organic Yellow Onion,
+  * Organic Cucumber,
+  * Organic Tomato Cluster,
+  * Free & Clear Unscented Baby Wipes,
+  * ...
 
 - and a few that we have missed
+  * Organic Lemon,
+  * Organic Red Onion,
+  * Organic Sunday Bacon,
+  * ...
 
-  - Organic Lemon,
-  - Organic Red Onion,
-  - Organic Sunday Bacon,
-  - ...
-
- Here are the [slides](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Final%20presentation.pdf) for final presentation.
+[Here](https://github.com/lihaoranIcefire/erdosFall2022_Thanos_Haoran/blob/main/Final%20presentation.pdf) are the slides for final presentation.
